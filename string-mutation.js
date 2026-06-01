@@ -20,3 +20,8 @@ const fristName = "Mark";
 const lastName =  "Osaisai";
 
 console.log(`My name is ${fristName} ${lastName}`);
+console.log("\n==\n==\n==");
+console.log("This is under");
+console.log("start \t\t\tend" );
+const path ="c:\\user\\Document"
+console.log(path);
