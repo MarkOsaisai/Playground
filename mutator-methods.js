@@ -34,9 +34,6 @@ const alpha = ["B", "D", "E", "C"];
 const beta = [2, 100, 47, 58, 12 ];
 
 beta.sort((a, b) => b-a);
-function wayUp(b-a, beta.sort){
-console.log(beta)
-}
 console.log(beta)
 
 alpha.sort();
