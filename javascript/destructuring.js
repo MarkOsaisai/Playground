@@ -17,15 +17,23 @@
 // }, 6000, "samuel")
 
 
-let count = 0;
-const maxCount = 5;
-const interval = setInterval(()=>{
-    console.log(`Number of executiona: ${count}`)
-    count++
+// let count = 0;
+// const maxCount = 5;
+// const interval = setInterval(()=>{
+//     console.log(`Number of executiona: ${count}`)
+//     count++
 
-    if (count === maxCount){
-        clearInterval(interval)
+//     if (count === maxCount){
+//         clearInterval(interval)
 
-    }
+//     }
 
-}, 2000);
+// }, 2000);
+
+
+const sample = {name: "mark", age: "29" }
+
+const sampleJSONString = JSON.stringify(sample)
+
+console.log(sample);
+
